@@ -1,0 +1,10 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: PI-SDE-Test01
+  host: PI-SDE-Test01
+  disk_quota: 1024M
+  services:
+  - PI-SDE-Test01-personality_insights
